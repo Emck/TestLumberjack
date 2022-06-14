@@ -11,6 +11,7 @@
 		880AD43828581EF10096BAC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880AD43728581EF10096BAC7 /* Assets.xcassets */; };
 		880AD43B28581EF10096BAC7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880AD43928581EF10096BAC7 /* MainMenu.xib */; };
 		880AD43D28581EF10096BAC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 880AD43C28581EF10096BAC7 /* main.m */; };
+		882D16F82858258000649172 /* libCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 882D16F72858258000649172 /* libCocoaLumberjack.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		880AD43C28581EF10096BAC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		880AD43E28581EF10096BAC7 /* TestLumberjack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestLumberjack.entitlements; sourceTree = "<group>"; };
 		880AD44528581F460096BAC7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		882D16F72858258000649172 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882D16F82858258000649172 /* libCocoaLumberjack.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +71,7 @@
 		880AD44428581F450096BAC7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				882D16F72858258000649172 /* libCocoaLumberjack.a */,
 				880AD44528581F460096BAC7 /* Cocoa.framework */,
 			);
 			name = Frameworks;
@@ -280,6 +284,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/include";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -304,6 +309,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/include";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
