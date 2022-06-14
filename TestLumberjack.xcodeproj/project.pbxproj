@@ -12,6 +12,7 @@
 		880AD43B28581EF10096BAC7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880AD43928581EF10096BAC7 /* MainMenu.xib */; };
 		880AD43D28581EF10096BAC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 880AD43C28581EF10096BAC7 /* main.m */; };
 		882D16F82858258000649172 /* libCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 882D16F72858258000649172 /* libCocoaLumberjack.a */; };
+		882D16FB285840FB00649172 /* MDDLogFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D16FA285840FB00649172 /* MDDLogFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		880AD43E28581EF10096BAC7 /* TestLumberjack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestLumberjack.entitlements; sourceTree = "<group>"; };
 		880AD44528581F460096BAC7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		882D16F72858258000649172 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		882D16F9285840FB00649172 /* MDDLogFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDDLogFileManager.h; sourceTree = "<group>"; };
+		882D16FA285840FB00649172 /* MDDLogFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDDLogFileManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				880AD43428581EEF0096BAC7 /* AppDelegate.h */,
 				880AD43528581EEF0096BAC7 /* AppDelegate.m */,
+				882D16F9285840FB00649172 /* MDDLogFileManager.h */,
+				882D16FA285840FB00649172 /* MDDLogFileManager.m */,
 				880AD43728581EF10096BAC7 /* Assets.xcassets */,
 				880AD43928581EF10096BAC7 /* MainMenu.xib */,
 				880AD43C28581EF10096BAC7 /* main.m */,
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882D16FB285840FB00649172 /* MDDLogFileManager.m in Sources */,
 				880AD43D28581EF10096BAC7 /* main.m in Sources */,
 				880AD43628581EEF0096BAC7 /* AppDelegate.m in Sources */,
 			);
